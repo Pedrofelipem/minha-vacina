@@ -36,7 +36,6 @@ export const UsuariosProviders = {
         return JSON.parse(r)
       })
       .catch(e => {
-        console.log(e)
         return null
       })
   },
